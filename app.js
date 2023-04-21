@@ -11,15 +11,6 @@ const itemsRouter = require('./routes/items');
 
 var app = express();
 
-// const mongoUrl = 'mongodb+srv://daniel:danieldanieldaniel@cluster0.qowscnn.mongodb.net/clase?retryWrites=true&w=majority';
-
-// mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
-//     .then(x => {
-//         console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
-//     })
-//     .catch(err => {
-//         console.error('Error connecting to mongo', err)
-//     });
 
 
 const myLogger = (req, res, next) => {
